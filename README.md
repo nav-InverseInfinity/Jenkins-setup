@@ -38,6 +38,11 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 #### Go to user admin and change password.
 
 # Manage Jenkins Configurations & Plugins
+### Add the Java Path to $PATH varibale
+```expot JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.312.b07-1.amzn2.02.x86_64/```
+
+```PATH=$PATH:$JAVA_HOME```
+
 ### To configure JDK on jenkins server 
 ```sh
 echo $JAVA_HOME
