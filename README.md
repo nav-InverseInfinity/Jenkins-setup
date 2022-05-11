@@ -64,4 +64,10 @@ sudo yum install git -y
 
 ![git](https://user-images.githubusercontent.com/98486154/160558213-5d6c4393-ac3f-4517-b403-3476cc8830ce.jpg)
 
+### To configure MAVEN install Maven integration plugin 
+### To configure this, goto "Manage Jenkins" -> Global Tool Configuration --> Under Maven add Name as MAVEN_HOME and select install version
+
+![image](https://user-images.githubusercontent.com/98486154/167952981-907d268c-cfaa-4666-bf0d-8da6aa5ef061.png)
+
+
 
